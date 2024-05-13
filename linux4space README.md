@@ -45,7 +45,7 @@ The first part is cloning. To clone repositories with all submodules, use this c
 
 After that, thhis following command will setup environment and add meta-linux4space and meta-linux4space-apps layers to your bblayers.conf.
 ```
-    source oe-init-build-env
+    . ./poky/oe-init-build-env
     bitbake-layers add-layer ../meta-linux4space
     bitbake-layers add-layer ../meta-linux4space-apps
 ```
